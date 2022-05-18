@@ -1,0 +1,389 @@
+JSON 
+
+
+ADDING CUSTOMER WITH ADDRESS:----------
+
+{
+      "customerName":"Sharon",
+       "mobile":9954763217,
+       "idProof":"354789654785",
+       "gender":"Female",
+       "nationality":"Indian",
+       "address":
+       {
+           "city":"Kolkata",
+           "state":"West Bengal",
+           "properAddress":"12/42G,Biddhannagar",
+           "pinCode":700045
+       }
+
+}
+
+To add facility----------------
+{
+       "facilityName":"Free Internet"
+}
+
+
+To add Hotel-----------------
+
+{
+       "hotelName":"Novotel",
+       "phone":9754123658,
+       "noOfRooms":800,
+        "ratings":10.0,
+        "starRatings":"5 star",
+        "propertyType":"Hotel",
+        "rooms":
+        [
+                {
+                    "roomType":"Single",
+                    "pricePerDay":10500.50
+                },
+                {
+                    "roomType":"Double",
+                    "pricePerDay":15700.50
+                },
+                {
+                    "roomType":"Twin Double",
+                    "pricePerDay":18200.50
+                }
+        ],
+        "facilities":
+        [
+            {
+                "facilityName":"Cancellation"
+            },
+            {
+                "facilityName":"Book Now, Pay Later"
+            },
+            {
+                "facilityName":"Breakfast"
+            },
+            {
+                "facilityName":"Bar"
+            },
+            {
+                "facilityName":"Hot Water"
+            },
+            {
+                "facilityName":"Free Internet"
+            },
+            {
+                "facilityName":"Laundry Service"
+            },
+            {
+                "facilityName":"Parking Facility"
+            },
+            {
+                "facilityName":"Swimming Pool"
+            },
+            {
+                "facilityName":"Power backup"
+            },
+            {
+                "facilityName":"TV"
+            },
+            {
+                "facilityName":"Restaurant"
+            }
+        ],
+        "address":
+        {
+            "city":"Kolkata",
+           "state":"West Bengal",
+           "properAddress":"12/42G,Biddhannagar",
+           "pinCode":700045
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+        "customers":
+        [
+            {
+                "customerId":101,
+                "customerName":"Titli",
+                "mobile":9874562587,
+                "iDProof":"354789654785",
+                "gender":"Female",
+                "nationality":"Indian",
+                "address":
+                {
+                    "addressId":1001,
+                    "city":"Kolkata",
+                    "state":"West Bengal",
+                    "properAddress":"12/42G,Biddhannagar",
+                    "pincode":700045
+                }
+            },
+            {
+                "customerId": 102,
+                "customerName": "Sharon",
+                "mobile": 9985476325,
+                "iDProof":"654721584795",
+                "gender": "Female",
+                "nationality": "Indian",
+                "address":
+                {
+                    "addressId": 1002,
+                    "city": "Bangalore",
+                    "state": "Karnataka",
+                    "properAddress": "L/124, MG Road",
+                    "pinCode": 654785
+                }
+            },
+            {
+                "customerId": 103,
+                "customerName": "Rey",
+                "mobile": 9745682478,
+                "iDProof":"KXVFR6517F",
+                "gender": "Male",
+                "nationality": "Indian",
+                "address": 
+                {
+                    "addressId": 1003,
+                    "city": "Pune",
+                    "state": "Maharashtra",
+                    "properAddress": "124/458, ShivNagar",
+                    "pinCode": 687451
+                }
+            }
+        ],
+        "bookings":
+        [
+            {
+                "checkInDate":"2022-06-14",
+                "checkOutDate":"2022-06-17",
+                "bookingDate":"2022-05-02",
+                "noOfPersons":2,
+                "totalCost":15700.50,
+                "billingNo":101,
+                "paymentMode":"Online",
+                "room":
+                {
+                    "roomType":"Double",
+                    "pricePerDay":15700.50
+                }
+            }
+        ]
+
+}
+
+
+
+
+
+
+
+
+
+
+
+{
+       "hotelName":"Novotel",
+       "phone":9754123658,
+       "noOfRooms":800,
+        "ratings":10.0,
+        "starRatings":"5 star",
+        "propertyType":"Hotel",
+        "rooms":
+        [
+                {
+                    "roomType":"Single",
+                    "pricePerDay":10500.50
+                },
+                {
+                    "roomType":"Double",
+                    "pricePerDay":15700.50
+                },
+                {
+                    "roomType":"Twin Double",
+                    "pricePerDay":18200.50
+                }
+        ],
+        "facilities":
+        [
+            {   
+                "facilityId": 1,
+                "facilityName": "AC"
+            },
+            {
+                "facilityId": 2,
+                "facilityName": "Cancellation"
+            },
+            {
+                "facilityId": 3,
+                "facilityName": "Book Now, Pay Later"
+            },
+            {
+                "facilityId": 4,
+                "facilityName": "Breakfast"
+            },
+            {
+                "facilityId": 5,
+                "facilityName": "Pay At Hotel"
+            },
+            {
+                "facilityId": 6,
+                "facilityName": "Swimming Pool"
+            },
+            {
+                "facilityId": 7,
+                "facilityName": "Bar"
+            },
+            {
+                "facilityId": 8,
+                "facilityName": "Restaurant"
+            },
+            {
+                "facilityId": 9,
+                "facilityName": "Dining"
+            },
+            {
+                "facilityId": 10,
+                "facilityName": "Geyser"
+            },
+            {
+                "facilityId": 11,
+                "facilityName": "Parking Facility"
+            },
+            {
+                "facilityId": 12,
+                "facilityName": "Laundry Service"
+            },
+            {
+                "facilityId": 13,
+                "facilityName": "TV"
+            },
+            {
+                "facilityId": 14,
+                "facilityName": "Lounge"
+            },
+            {
+                "facilityId": 15,
+                "facilityName": "Free Internet"
+            }
+        ],
+        "address":
+        {
+            "city":"Kolkata",
+           "state":"West Bengal",
+           "properAddress":"Plot no 45,New Town",
+           "pinCode":700052
+        }
+
+TO ADD HOTEL WITH FACILITIES AND ROOMS
+-------------------------------------------------------------------------------------------------------------------------------------------------
+{
+   "hotelName":"Ibis",
+       "phone":9475630015,
+       "noOfRooms":60,
+        "ratings":8.5,
+        "starRatings":"4 star",
+        "propertyType":"Hotel",
+        "rooms":
+        [
+                {
+                    "roomType":"Single",
+                    "pricePerDay":10500.50
+                },
+                {
+                    "roomType":"Double",
+                    "pricePerDay":15700.50
+                },
+                {
+                    "roomType":"Twin Double",
+                    "pricePerDay":18200.50
+                },
+                {
+                    "roomType":"Triple",
+                    "pricePerDay":18200.50
+                }
+        ],
+        "facilities":
+        [
+            {   
+               
+                "facilityName": "AC"
+            },
+            {
+               
+                "facilityName": "Cancellation"
+            },
+            {
+              
+                "facilityName": "Book Now, Pay Later"
+            },
+            {
+               
+                "facilityName": "Breakfast"
+            },
+            {
+                
+                "facilityName": "Pay At Hotel"
+            },
+            {
+               
+                "facilityName": "Swimming Pool"
+            },
+            {
+               
+                "facilityName": "Bar"
+            },
+            {
+               
+                "facilityName": "Restaurant"
+            },
+            {
+                
+                "facilityName": "Dining"
+            },
+            {
+                
+                "facilityName": "Geyser"
+            },
+            {
+               
+                "facilityName": "Parking Facility"
+            },
+            {
+                
+                "facilityName": "Laundry Service"
+            },
+            {
+                
+                "facilityName": "TV"
+            },
+            {
+               
+                "facilityName": "Lounge"
+            },
+            {
+                "facilityName": "Free Internet"
+            }
+        ],
+        "address":
+        {
+            "city":"Kolkata",
+           "state":"West Bengal",
+           "properAddress":"Plot no 52,New Town",
+           "pinCode":700052
+        }
+}
